@@ -25,7 +25,5 @@ namespace ConsoleApp1
         {
             return this.value * 1000;
         }
-
-        
     }
 }
