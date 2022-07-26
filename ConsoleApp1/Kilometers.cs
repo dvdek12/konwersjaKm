@@ -1,17 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp1
+﻿namespace ConsoleApp1
 {
     public class Kilometers
     {
-        public int value;
+        public int Value;
         public Kilometers(int value)
         {
-            this.value = value;
+            Value = value;
         }
            
         public void SaveValueToFile(string path, int value)
@@ -23,7 +17,7 @@ namespace ConsoleApp1
 
         public int ConvertToMeters()
         {
-            return this.value * 1000;
+            return Value * 1000;
         }
     }
 }
